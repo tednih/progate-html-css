@@ -1,0 +1,87 @@
+/* Tata letak untuk Smartphone */
+@media (max-width: 750px) {
+  /* HEADER */
+  .header-list {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    float: right;
+    padding: 25px 15px;
+  }
+
+  .header-logo {
+    float: left;
+    font-size: 15px;
+    padding: 25px 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+  }
+  /* HEADER */
+  /* MAIN */
+  .main {
+    padding: 100px 10px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .judul h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: rgb(53, 53, 53);
+  }
+
+  .judul h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(100, 100, 100);
+  }
+
+  .tentangs {
+    padding: 0 50px;
+  }
+  /* MAIN */
+  /* Proyek */
+  .flex-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-list li {
+    margin: 0 auto;
+  }
+
+  /* Proyek */
+
+  /* TENTANG */
+  .tentangs h2 {
+    font-size: medium;
+  }
+  /* TENTANG */
+
+  /* HUBUNGI */
+  input {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+  }
+  textarea {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+  }
+
+  button {
+    width: 200px;
+  }
+  /* HUBUNGI */
+}

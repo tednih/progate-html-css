@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  background-color: rgb(53, 53, 53);
+  color: #fff;
+  height: 65px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 20px;
+  padding: 20px 30px;
+  letter-spacing: 8px;
+  font-weight: bold;
+}
+
+.header-list {
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.header-list li {
+  float: left;
+  padding: 27px 15px;
+}
+
+.icon {
+  display: none;
+}
+/* HEADER */
+
+/* JUDUL */
+.main {
+  padding: 100px 0px;
+  text-align: center;
+  margin: auto;
+}
+
+.judul h1 {
+  font-size: 100px;
+  letter-spacing: 8px;
+  color: rgb(53, 53, 53);
+}
+
+.judul h2 {
+  font-size: 40px;
+  font-weight: normal;
+  color: rgb(100, 100, 100);
+}
+
+.judul span {
+  color: rgb(247, 211, 7);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* JUDUL */
+
+/* TENTANG */
+.main-2 {
+  background-color: rgb(240, 240, 240);
+  padding: 100px 0px;
+  text-align: center;
+  margin: auto;
+}
+
+.tentangs {
+  padding: 50px 120px;
+}
+
+.tentangs h1 {
+  color: rgb(53, 53, 53);
+  padding-bottom: 50px;
+}
+
+.tentangs h2 {
+  color: rgb(100, 100, 100);
+  font-weight: normal;
+}
+/* TENTANG */
+
+/* PROYEK */
+.main h1 {
+  padding: 10px;
+}
+.flex-list {
+  display: flex;
+  padding: 0;
+}
+
+.flex-list li {
+  flex: auto;
+  padding: 60px 0px;
+}
+
+.flex-list ul {
+  margin: 0px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.flex-list p {
+  margin-top: 10px;
+}
+/* PROYEK */
+
+/* Hubungi */
+input {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px;
+}
+textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px;
+}
+
+button {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgb(241, 219, 93);
+  border: 1px solid rgb(247, 211, 7);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(247, 232, 149);
+  border: 1px solid rgb(247, 211, 7);
+  cursor: pointer;
+}
+
+.main-2 h1 {
+  margin-bottom: 30px;
+}
+/* Hubungi */
+
+/* FOOTER */
+.footer {
+  background-color: rgb(92, 90, 90);
+  height: 180px;
+  padding: 40px;
+  color: #fff;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+/* FOOTER */
